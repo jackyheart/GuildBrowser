@@ -398,7 +398,7 @@
 			name = GuildBrowserTests;
 			productName = GuildBrowserTests;
 			productReference = CB9FDC5C15E9872E00B3713E /* GuildBrowserTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -406,7 +406,7 @@
 		CB9FDC3215E9872D00B3713E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Charlie Fulton";
 			};
 			buildConfigurationList = CB9FDC3515E9872D00B3713E /* Build configuration list for PBXProject "GuildBrowser" */;
@@ -582,6 +582,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
