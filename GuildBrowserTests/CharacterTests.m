@@ -73,7 +73,6 @@
     }];
 }
 
-/*
 -(void)testCreateCharacterFromDetailJsonProps
 {
     XCTAssertEqualObjects(_testGuy.thumbnail, @"borean-tundra/171/40508075-avatar.jpg", @"thumbnail url is wrong");
@@ -113,6 +112,5 @@
     XCTAssertEqualObjects(_testGuy.trinketItem2.name,@"Bone-Link Fetish", @"neck name is wrong");
     XCTAssertEqualObjects(_testGuy.rangedItem.name,@"Ironfeather Longbow", @"neck name is wrong");
 }
-*/
 
 @end
